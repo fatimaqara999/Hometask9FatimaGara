@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+public class menecer extends isci {
+    private int komandaSayi;
 
-public class menecer {
+    public menecer(String ad, int komandaSayi) {
+        super(ad);
+        this.komandaSayi = komandaSayi;
+    }
+
+    public int getKomandaSayi() {
+        return komandaSayi;
+    }
 }
